@@ -17,7 +17,7 @@
             <content:encoded><![CDATA[<p>After over <strong>3</strong> months of development. We're so glad to introduce the <strong>1.0</strong> version of our <strong>BoBiCo</strong> shader. Our first release of the shader.
 Our shader is now available on <strong>S&amp;box Workshop</strong>, <strong>Github</strong> and <strong>Gumroad</strong>. Fully open-source in <strong>MIT</strong> license!</p>
 <hr>
-<p>##✨ Feature Highlights</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-feature-highlights">✨ Feature Highlights<a href="https://bobico-shader-docs.vercel.app/updates/2026/06/10/release#-feature-highlights" class="hash-link" aria-label="Direct link to ✨ Feature Highlights" title="Direct link to ✨ Feature Highlights" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-multiple-shading-styles">🎨 Multiple Shading Styles<a href="https://bobico-shader-docs.vercel.app/updates/2026/06/10/release#-multiple-shading-styles" class="hash-link" aria-label="Direct link to 🎨 Multiple Shading Styles" title="Direct link to 🎨 Multiple Shading Styles" translate="no">​</a></h3>
 <p>BoBiCo Shader comes with six built-in shading modes: Flat, Multilayer, Texture Ramp, Shade Map, Realistic, and Fur.</p>
 <p>Every shading mode also supports Wrap Shading, allowing you to easily achieve different lighting styles without switching to another shader.</p>
