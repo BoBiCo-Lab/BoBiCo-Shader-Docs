@@ -13,24 +13,29 @@
             <link>https://bobico-shader-docs.vercel.app/updates/2026/06/10/release</link>
             <guid>https://bobico-shader-docs.vercel.app/updates/2026/06/10/release</guid>
             <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[After almost a month. We're so glad to introduce the 1.0 version of our BoBiCo shader in "my birthday". Our first release of the shader.]]></description>
-            <content:encoded><![CDATA[<p>After almost a month. We're so glad to introduce the <strong>1.0</strong> version of our <strong>BoBiCo</strong> shader in <strong>"my birthday"</strong>. Our first release of the shader.
-<strong>1.0</strong> contains many features at the release. You can already make <strong>fancy stylized characters</strong> or go <strong>PBR mode</strong>.
-Or even translate and port most of the features from <strong>LilToon</strong> and <strong>MToon</strong>!</p>
-<p>Our shader is now available on <strong>S&amp;box Workshop</strong>, <strong>Github</strong> and <strong>Gumroad</strong>. Fully open-source in <strong>MIT</strong> license!</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="features">Features<a href="https://bobico-shader-docs.vercel.app/updates/2026/06/10/release#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>6 shading modes + 1 Extra</strong> : Flat, Multilayer shading, TextureRamp shading, Shademap Shading, Realistic Shading and Fur Shading. Extra as Wrap Shading for all modes.</li>
-<li class=""><strong>3 rendering modes</strong> : Opaque, Cutoff and Transparent with Dither Alpha, Alpha-to-Coverage and Fresnel Alpha features.</li>
-<li class=""><strong>Full Lighting support</strong> : Supports Direct + Indirect with dynamically adapting to the environment. Powered by our own Shading Model.</li>
-<li class=""><strong>Customization</strong> : Supports two slots for Main Color (2nd Color) with decal tools, Normal Map, Emission, Matcaps.
-OKLab and HSV color space support with many color adjustment controls for maximum color control for many features.</li>
-<li class=""><strong>Stylized features</strong> : Matcaps, Inverted hull Outlines, Glitter and more.</li>
-<li class=""><strong>PBR Support</strong> : Get PBR support for all modes (except fur.) with advanced controls and multi-channel controls.</li>
-<li class=""><strong>Advanced features</strong> : SSAO, Parallax Occlusion, Fur, Self-shadowing and Subsurface Scattering.
-And many many more..</li>
-</ul>
-<h1><a class="" href="https://bobico-shader-docs.vercel.app/docs/general-info/download-and-usage">Download here!</a></h1>
+            <description><![CDATA[After over 3 months of development. We're so glad to introduce the 1.0 version of our BoBiCo shader. Our first release of the shader.]]></description>
+            <content:encoded><![CDATA[<p>After over <strong>3</strong> months of development. We're so glad to introduce the <strong>1.0</strong> version of our <strong>BoBiCo</strong> shader. Our first release of the shader.
+Our shader is now available on <strong>S&amp;box Workshop</strong>, <strong>Github</strong> and <strong>Gumroad</strong>. Fully open-source in <strong>MIT</strong> license!</p>
+<hr>
+<p>##✨ Feature Highlights</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-multiple-shading-styles">🎨 Multiple Shading Styles<a href="https://bobico-shader-docs.vercel.app/updates/2026/06/10/release#-multiple-shading-styles" class="hash-link" aria-label="Direct link to 🎨 Multiple Shading Styles" title="Direct link to 🎨 Multiple Shading Styles" translate="no">​</a></h3>
+<p>BoBiCo Shader comes with six built-in shading modes: Flat, Multilayer, Texture Ramp, Shade Map, Realistic, and Fur.</p>
+<p>Every shading mode also supports Wrap Shading, allowing you to easily achieve different lighting styles without switching to another shader.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-flexible-rendering-modes">🪟 Flexible Rendering Modes<a href="https://bobico-shader-docs.vercel.app/updates/2026/06/10/release#-flexible-rendering-modes" class="hash-link" aria-label="Direct link to 🪟 Flexible Rendering Modes" title="Direct link to 🪟 Flexible Rendering Modes" translate="no">​</a></h3>
+<p>Supports Opaque, Cutout, and Transparent rendering pipelines, alongside advanced transparency techniques such as Dither Alpha, Alpha-to-Coverage, and Fresnel Alpha.</p>
+<p>The shader intelligently reuses existing alpha channels whenever possible, reducing the need for dedicated masking textures.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-full-lighting-support">💡 Full Lighting Support<a href="https://bobico-shader-docs.vercel.app/updates/2026/06/10/release#-full-lighting-support" class="hash-link" aria-label="Direct link to 💡 Full Lighting Support" title="Direct link to 💡 Full Lighting Support" translate="no">​</a></h3>
+<p>Designed to integrate seamlessly with the S&amp;box lighting pipeline, supporting Direct Lighting, Indirect Lighting, Light Probes, and DDGI.</p>
+<p>Lighting transitions adapt naturally to the environment while preserving the intended visual style.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-extensive-material-customization">🎛️ Extensive Material Customization<a href="https://bobico-shader-docs.vercel.app/updates/2026/06/10/release#%EF%B8%8F-extensive-material-customization" class="hash-link" aria-label="Direct link to 🎛️ Extensive Material Customization" title="Direct link to 🎛️ Extensive Material Customization" translate="no">​</a></h3>
+<p>Build highly customizable materials using dual main color layers, built-in decal tools, normal maps, emission, matcaps, and a large collection of color adjustment controls.</p>
+<p>Whether you're creating stylized or realistic materials, the shader provides plenty of flexibility without becoming difficult to use.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-stylized-effects">✨ Stylized Effects<a href="https://bobico-shader-docs.vercel.app/updates/2026/06/10/release#-stylized-effects" class="hash-link" aria-label="Direct link to ✨ Stylized Effects" title="Direct link to ✨ Stylized Effects" translate="no">​</a></h3>
+<p>Enhance your visuals with built-in features including MatCaps, Inverted Hull Outlines, Glitter Effects, and several additional NPR-oriented rendering options.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-physically-based-rendering">⚙️ Physically Based Rendering<a href="https://bobico-shader-docs.vercel.app/updates/2026/06/10/release#%EF%B8%8F-physically-based-rendering" class="hash-link" aria-label="Direct link to ⚙️ Physically Based Rendering" title="Direct link to ⚙️ Physically Based Rendering" translate="no">​</a></h3>
+<p>Every shading mode except Fur supports a complete PBR workflow, including advanced material parameters and flexible multi-channel controls for fine-tuning surface appearance.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-advanced-features">🚀 Advanced Features<a href="https://bobico-shader-docs.vercel.app/updates/2026/06/10/release#-advanced-features" class="hash-link" aria-label="Direct link to 🚀 Advanced Features" title="Direct link to 🚀 Advanced Features" translate="no">​</a></h3>
+<p>BoBiCo Shader also includes support for Screen Space Ambient Occlusion (SSAO), Parallax Occlusion Mapping, Self Shadowing, Subsurface Scattering, Fur Rendering, and many other advanced rendering techniques</p>
 <p>See our <strong>Documentation</strong> for full detailed documentation about the features our shader offers!
 Thank you for using our shader :)</p>
 <hr>]]></content:encoded>
