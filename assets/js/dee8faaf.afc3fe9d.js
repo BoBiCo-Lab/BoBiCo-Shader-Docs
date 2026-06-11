@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbo_bi_co_website=self.webpackChunkbo_bi_co_website||[]).push([["3144"],{4540(e){e.exports=JSON.parse('{"blogBasePath":"/guides","blogTitle":"Guides","authorsListPath":"/guides/authors"}')}}]);

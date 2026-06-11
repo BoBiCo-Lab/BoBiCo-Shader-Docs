@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbo_bi_co_website=self.webpackChunkbo_bi_co_website||[]).push([["2158"],{6620(e){e.exports=JSON.parse('{"metadata":{"permalink":"/blogs","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Long-form notes, dev logs, and project writeups.","blogTitle":"Blogs"}}')}}]);

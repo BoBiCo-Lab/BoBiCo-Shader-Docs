@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbo_bi_co_website=self.webpackChunkbo_bi_co_website||[]).push([["9231"],{7853(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"BoBiCo Shader 1.0 Release.","permalink":"/updates/2026/06/10/release","unlisted":false,"date":"2026-06-10T00:00:00.000Z"}]}')}}]);

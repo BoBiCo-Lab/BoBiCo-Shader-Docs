@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbo_bi_co_website=self.webpackChunkbo_bi_co_website||[]).push([["6074"],{5140(e,b,s){s.d(b,{A:()=>i});var c=s(7322),_=s(7399);let i={...c.A,IIcon:_.In}}}]);

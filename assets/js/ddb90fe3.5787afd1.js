@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbo_bi_co_website=self.webpackChunkbo_bi_co_website||[]).push([["6655"],{9818(e){e.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"guides"}')}}]);

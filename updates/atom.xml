@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://bobico-shader-docs.vercel.app/updates</id>
+    <title>BoBiCo Shader Blog</title>
+    <updated>2026-06-10T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://bobico-shader-docs.vercel.app/updates"/>
+    <subtitle>BoBiCo Shader Blog</subtitle>
+    <icon>https://bobico-shader-docs.vercel.app/img/BoBiCo Icon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[BoBiCo Shader 1.0 Release.]]></title>
+        <id>https://bobico-shader-docs.vercel.app/updates/2026/06/10/release</id>
+        <link href="https://bobico-shader-docs.vercel.app/updates/2026/06/10/release"/>
+        <updated>2026-06-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[After almost a month. We're so glad to introduce the 1.0 version of our BoBiCo shader in "my birthday". Our first release of the shader.]]></summary>
+        <content type="html"><![CDATA[<p>After almost a month. We're so glad to introduce the <strong>1.0</strong> version of our <strong>BoBiCo</strong> shader in <strong>"my birthday"</strong>. Our first release of the shader.
+<strong>1.0</strong> contains many features at the release. You can already make <strong>fancy stylized characters</strong> or go <strong>PBR mode</strong>.
+Or even translate and port most of the features from <strong>LilToon</strong> and <strong>MToon</strong>!</p>
+<p>Our shader is now available on <strong>S&amp;box Workshop</strong>, <strong>Github</strong> and <strong>Gumroad</strong>. Fully open-source in <strong>MIT</strong> license!</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="features">Features<a href="https://bobico-shader-docs.vercel.app/updates/2026/06/10/release#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>6 shading modes + 1 Extra</strong> : Flat, Multilayer shading, TextureRamp shading, Shademap Shading, Realistic Shading and Fur Shading. Extra as Wrap Shading for all modes.</li>
+<li class=""><strong>3 rendering modes</strong> : Opaque, Cutoff and Transparent with Dither Alpha, Alpha-to-Coverage and Fresnel Alpha features.</li>
+<li class=""><strong>Full Lighting support</strong> : Supports Direct + Indirect with dynamically adapting to the environment. Powered by our own Shading Model.</li>
+<li class=""><strong>Customization</strong> : Supports two slots for Main Color (2nd Color) with decal tools, Normal Map, Emission, Matcaps.
+OKLab and HSV color space support with many color adjustment controls for maximum color control for many features.</li>
+<li class=""><strong>Stylized features</strong> : Matcaps, Inverted hull Outlines, Glitter and more.</li>
+<li class=""><strong>PBR Support</strong> : Get PBR support for all modes (except fur.) with advanced controls and multi-channel controls.</li>
+<li class=""><strong>Advanced features</strong> : SSAO, Parallax Occlusion, Fur, Self-shadowing and Subsurface Scattering.
+And many many more..</li>
+</ul>
+<h1><a class="" href="https://bobico-shader-docs.vercel.app/docs/general-info/download-and-usage">Download here!</a></h1>
+<p>See our <strong>Documentation</strong> for full detailed documentation about the features our shader offers!
+Thank you for using our shader :)</p>
+<hr>]]></content>
+        <author>
+            <name>乃ㄖ乃爪卂匚 Ü</name>
+        </author>
+    </entry>
+</feed>

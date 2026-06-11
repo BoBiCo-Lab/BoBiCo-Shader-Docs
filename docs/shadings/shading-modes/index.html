@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-shadings/shading-modes" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.10.1">
+<title data-rh="true">☀️ Shading Modes | BoBiCo Shader</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://bobico-shader-docs.vercel.app/img/bobico-social-card.svg"><meta data-rh="true" name="twitter:image" content="https://bobico-shader-docs.vercel.app/img/bobico-social-card.svg"><meta data-rh="true" property="og:url" content="https://bobico-shader-docs.vercel.app/docs/shadings/shading-modes"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="☀️ Shading Modes | BoBiCo Shader"><meta data-rh="true" name="description" content="BoBiCo Shader offers many shading modes for your use. Shading modes control how shading is applied to your material."><meta data-rh="true" property="og:description" content="BoBiCo Shader offers many shading modes for your use. Shading modes control how shading is applied to your material."><link data-rh="true" rel="icon" href="/img/BoBiCo Icon.png"><link data-rh="true" rel="canonical" href="https://bobico-shader-docs.vercel.app/docs/shadings/shading-modes"><link data-rh="true" rel="alternate" href="https://bobico-shader-docs.vercel.app/docs/shadings/shading-modes" hreflang="en"><link data-rh="true" rel="alternate" href="https://bobico-shader-docs.vercel.app/docs/shadings/shading-modes" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"☀️ Shading Modes","item":"https://bobico-shader-docs.vercel.app/docs/shadings/shading-modes"}]}</script><link rel="alternate" type="application/rss+xml" href="/updates/rss.xml" title="BoBiCo Shader RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/updates/atom.xml" title="BoBiCo Shader Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/blogs/rss.xml" title="BoBiCo Shader RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blogs/atom.xml" title="BoBiCo Shader Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/guides/rss.xml" title="BoBiCo Shader RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/guides/atom.xml" title="BoBiCo Shader Atom Feed"><link rel="stylesheet" href="/assets/css/styles.8fa24b95.css">
+<script src="/assets/js/runtime~main.b0bf9b74.js" defer="defer"></script>
+<script src="/assets/js/main.c9c2f5d7.js" defer="defer"></script>
+</head>
+<body>
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/BoBiCo Icon.png"><link rel="preload" as="image" href="/img/shading-modes/flat-shading.png"><link rel="preload" as="image" href="/img/shading-modes/multi-layer-shading.png"><link rel="preload" as="image" href="/img/ui/img-texture.png"><link rel="preload" as="image" href="/img/ui/checkbox.png"><link rel="preload" as="image" href="/img/shading-modes/textureramp-shading.png"><link rel="preload" as="image" href="/img/shading-modes/shademap-shading.png"><link rel="preload" as="image" href="/img/shading-modes/realistic-shading.png"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/BoBiCo Icon.png" alt="BoBiCo Shader logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/BoBiCo Icon.png" alt="BoBiCo Shader logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">BoBiCo Shader</b></a><a class="navbar__item navbar__link" href="/docs/general-info/download-and-usage">Download</a><a class="navbar__item navbar__link" href="/docs/general-info/introduction">Documentation</a><a class="navbar__item navbar__link" href="/docs/term-of-service">Term of Service</a><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">More</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/updates">Updates</a></li><li><a class="dropdown__link" href="/blogs">Blogs</a></li><li><a class="dropdown__link" href="/guides">Guides</a></li><li><a class="dropdown__link" href="/credits">Credits</a></li></ul></div></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="site-navbar-search navbarSearchContainer_Bca1"><div class="site-search-widget" role="search"><span class="site-search-icon" aria-hidden="true"><svg viewBox="0 0 16 16" focusable="false" aria-hidden="true"><circle cx="6.75" cy="6.75" r="4.75" fill="none" stroke="currentColor" stroke-width="1.6"></circle><path d="M10.35 10.35 14 14" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path></svg></span><input class="site-search-input" type="search" placeholder="Search" aria-label="Search" autocomplete="off" value=""><div class="site-search-panel" aria-label="Search results" hidden=""><div class="site-search-empty">Start typing to search.</div></div></div></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/general-info/introduction"><span title="👋 Introduction" class="linkLabel_WmDU">👋 Introduction</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/general-info/download-and-usage"><span title="📥 Download &amp; Usage" class="linkLabel_WmDU">📥 Download &amp; Usage</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/general-info/textures-n-formats"><span title="📖 Main Informations" class="categoryLinkLabel_W154">📖 Main Informations</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/settings/rendering-modes"><span title="⚙️ Settings" class="categoryLinkLabel_W154">⚙️ Settings</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/main-features/main-color"><span title="🎖️ Main Features" class="categoryLinkLabel_W154">🎖️ Main Features</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/docs/shadings/shading-modes"><span title="🌟 Shadings &amp; Effects" class="categoryLinkLabel_W154">🌟 Shadings &amp; Effects</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/shadings/shading-modes"><span title="☀️ Shading Modes" class="linkLabel_WmDU">☀️ Shading Modes</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/shadings/wrap-shading"><span title="👤 Wrap Shading" class="linkLabel_WmDU">👤 Wrap Shading</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/fx-effects/emission"><span title="🌟 Emission" class="linkLabel_WmDU">🌟 Emission</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/shadings/subsurface-scattering"><span title="🌻 Subsurface Scattering" class="linkLabel_WmDU">🌻 Subsurface Scattering</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/shadings/backlit"><span title="🔦 Backlit" class="linkLabel_WmDU">🔦 Backlit</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/shadings/rim-lighting"><span title="🌄 Rim Lighting" class="linkLabel_WmDU">🌄 Rim Lighting</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/fx-effects/glitters"><span title="✨ Glitters" class="linkLabel_WmDU">✨ Glitters</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/shadings/matcaps"><span title="🔮 Matcaps" class="linkLabel_WmDU">🔮 Matcaps</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/shadings/cubemap"><span title="🎱 Cubemap" class="linkLabel_WmDU">🎱 Cubemap</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/shadings/outlines"><span title="🔳 Outlines" class="linkLabel_WmDU">🔳 Outlines</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/advanced/pbr-rendering"><span title="🎚️ Advanced" class="categoryLinkLabel_W154">🎚️ Advanced</span></a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/roadmap"><span title="🚩 Roadmap" class="linkLabel_WmDU">🚩 Roadmap</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/term-of-service"><span title="⚖️ Term of Service" class="linkLabel_WmDU">⚖️ Term of Service</span></a></li></ul></nav><button type="button" title="Collapse sidebar" aria-label="Collapse sidebar" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">🌟 Shadings &amp; Effects</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">☀️ Shading Modes</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown doc-fade-root"><div class="doc-fade-content"><header><h1>Shading Modes</h1></header>
+<p><strong>BoBiCo Shader</strong> offers many shading modes for your use. <strong>Shading modes</strong> control how shading is applied to your material.
+There are simple ones and complex ones. You can pick one below to read more about it.</p>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>warning</div><div class="admonitionContent_BuS1"><p>If you see your shading broken, jaggy or blocky. Please see <a class="" href="/docs/general-info/download-and-usage#using-expensive-tangents"><strong>Using Expensive Tangents</strong></a>.
+Your model needs to have <strong>Expensive Tangents</strong> enabled for best results.</p></div></div>
+<!-- -->
+<div class="modeBox"><h3>Select shading mode.</h3><div class="modeButtons"><button type="button" class="modeButton active">Flat</button><button type="button" class="modeButton">Multi-Layer</button><button type="button" class="modeButton">TextureRamp</button><button type="button" class="modeButton">ShadeMap</button><button type="button" class="modeButton">Realistic</button><button type="button" class="modeButton">Fur</button></div><div class="modePanels"><div data-mode-id="Flat"><h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="flat-shading">Flat Shading<a href="#flat-shading" class="hash-link" aria-label="Direct link to Flat Shading" title="Direct link to Flat Shading" translate="no">​</a></h2><p><strong>Flat</strong> shading is a toon shading mode that uses the same lighting level as the default shading, except that it is fully <strong>flat</strong>.
+<strong>Flat</strong> shading mode does not expose any <strong>shading settings</strong>. This mode is for very fast use on your model without any complex shading styles.</p><figure style="text-align:center"><img src="/img/shading-modes/flat-shading.png"><figcaption><strong>Flat Shading</strong></figcaption></figure></div><div data-mode-id="MultiLayer" hidden=""><h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="multi-layer-shading">Multi-layer Shading<a href="#multi-layer-shading" class="hash-link" aria-label="Direct link to Multi-layer Shading" title="Direct link to Multi-layer Shading" translate="no">​</a></h2><p><strong>Multi-layer</strong> shading is a toon shading mode that uses <strong>triple-layer gradients</strong> with each layer blending correctly. This shading style is based off from <strong>LilToon</strong> shader.</p><p>This shading is best for users who want full control over the shading with robust toon shading that performs well in most conditions. You can use <strong>three</strong> shading colors and a <strong>border</strong> with <strong>adjustable settings</strong>.
+You can also use <strong>masks</strong> for <strong>complex usage</strong>. There&#x27;s also <strong>SDF</strong> mask support for this mode.</p><figure style="text-align:center"><img src="/img/shading-modes/multi-layer-shading.png"><figcaption><strong>Multi-layer Shading</strong></figcaption></figure><details class="details_lb9f alert alert--info details_b_Ee docDropdown" open="" data-collapsed="false"><summary>Multi-layer Shading Options</summary><div><div class="collapsibleContent_i85q"><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="shadow-map">Shadow Map<a href="#shadow-map" class="hash-link" aria-label="Direct link to Shadow Map" title="Direct link to Shadow Map" translate="no">​</a></h3><details class="details_lb9f alert alert--info details_b_Ee docDropdown" data-collapsed="true"><summary>Shadow Map Options</summary><div><div class="collapsibleContent_i85q"><p><strong>Shadow Map</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <img src="/img/ui/img-texture.png" class="uiIcon"> <b>Mask Texture</b>
+<ul>
+<li class="">Output format : <code>BC7 [RGBA]</code></li>
+</ul>
+</li>
+</ul></span><p>Defines a <strong>Shadow Map</strong> for shadow shading. Each color channels of the map applies to every layer and determine where the shadows should appear.
+<strong>UV settings</strong> are available if needed.</p><p><strong>Shadow Map Type</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="2" step="1" value="0"><input class="docUiNumber" type="number" min="0" max="2" step="1" value="0"></span> <code>Int</code>
+<ul>
+<li class="">Range : <code>0 - 2</code></li>
+</ul>
+</li>
+</ul></span><p>Selects the shadow map type. Three different map types are available.</p><table><thead><tr><th style="text-align:left">Number</th><th style="text-align:center">Mode</th><th style="text-align:center">Information</th></tr></thead><tbody><tr><td style="text-align:left"><strong>0</strong></td><td style="text-align:center">Strength</td><td style="text-align:center">Strength will determine where the shadows for each layers should appear in.</td></tr><tr><td style="text-align:left"><strong>1</strong></td><td style="text-align:center">Flat</td><td style="text-align:center">Flat will allow to customize the appearance while also determining where the shadows for each layers should appear in.</td></tr><tr><td style="text-align:left"><strong>2</strong></td><td style="text-align:center">SDF</td><td style="text-align:center">SDF (Signed Distance Field) is a complex shading style that defines how shadows should act based on the direction of light. It&#x27;s for advanced usage.</td></tr></tbody></table><details class="details_lb9f alert alert--info details_b_Ee docDropdown" data-collapsed="true"><summary>Strength Shadow Map</summary><div><div class="collapsibleContent_i85q"><p><strong>Shadow Map Invert</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <img src="/img/ui/checkbox.png" class="uiIcon"> <b>Checkbox</b> <code>Boolean</code></li>
+</ul></span><p><strong>Inverts</strong> the shadow mask, resulting in the opposite effect of the mask.</p><p><strong>Shadow Map Intensity</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the <strong>Shadow Map</strong> intensity.</p></div></div></details><details class="details_lb9f alert alert--info details_b_Ee docDropdown" data-collapsed="true"><summary>Flat Shadow Map</summary><div><div class="collapsibleContent_i85q"><div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>Options below will not work unless you use <strong>Flat</strong> shadow map mode.
+They are still visible because Material Editor does not allow hiding them for a specific mode with runtime sliders.</p></div></div><p><strong>Flat Shadow Map Area</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>-2.0 - 2.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the area of the <strong>Flat Shadow Map</strong>. This sets the border between the shaded and lit areas. Lower values make the shading cover less area, while higher values make the shading cover more area.</p><p><strong>Flat Shadow Map Softness</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>-2.0 - 2.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the softness of the <strong>Flat Shadow Map</strong>. This can be used to adjust between cel-shaded toon shading and softer, more realistic shading. Lower values make the shading fully sharp, while higher values make the shading softer.</p></div></div></details><details class="details_lb9f alert alert--info details_b_Ee docDropdown" data-collapsed="true"><summary>SDF Map</summary><div><div class="collapsibleContent_i85q"><div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>Option below will not work unless you use <strong>SDF</strong> shadow map mode.
+They are still visible because Material Editor does not allow hiding them for a specific mode with runtime sliders.</p></div></div><p><strong>SDF Map Blend Y Direction</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 2.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls how strongly the SDF shadow blends in the vertical direction of the texture.
+Lower values keep the shadow tighter and more rigid. Higher values spread the shadow more smoothly up and down.</p></div></div></details></div></div></details><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="shadow-layers">Shadow Layers<a href="#shadow-layers" class="hash-link" aria-label="Direct link to Shadow Layers" title="Direct link to Shadow Layers" translate="no">​</a></h3><details class="details_lb9f alert alert--info details_b_Ee docDropdown" data-collapsed="true"><summary>1st Shadow Layer</summary><div><div class="collapsibleContent_i85q"><p><strong>Shadow Color</strong></p><ul>
+<li class="">UI Type : <b>Color</b> <span class="docUiInlineControl docUiColorControl"><span class="docUiColorPreviewWrap"><input type="color" class="docUiColorPicker" aria-label="Pick color" value="#b3bfd9"><span class="docUiColorPreview" style="background-color:#b3bfd9" aria-hidden="true"></span></span><input class="docUiHexBox" readonly="" aria-label="Selected color hex" value="#b3bfd9"></span></li>
+</ul><p>Defines the color of the <strong>Main Shadow</strong> layer, which is the <strong>1st Layer</strong>. This layer must be used before the other layers; otherwise, the other layers will not take effect.</p><p><strong>Shadow Intensity</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the intensity of the <strong>Main Shadow</strong> layer. Lower values result in minimal shading, while higher values result in more intense shading.</p><p><strong>Shadow Area</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0.75"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0.75"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the area of the <strong>Main Shadow</strong> layer. This sets the border between the shaded and lit areas.
+Lower values make the shading cover less area, while higher values make the shading cover more area.</p><p><strong>Shadow Softness</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0.5"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0.5"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the hardness and smoothness of the <strong>Main Shadow</strong> layer. This can be used to adjust between cel-shaded toon shading and softer, more realistic shading.
+Lower values make the shading fully sharp, while higher values make the shading softer.</p></div></div></details><details class="details_lb9f alert alert--info details_b_Ee docDropdown" data-collapsed="true"><summary>2nd Shadow Layer</summary><div><div class="collapsibleContent_i85q"><p><strong>Shadow 2nd Color</strong></p><ul>
+<li class="">UI Type : <b>Color</b> <span class="docUiInlineControl docUiColorControl"><span class="docUiColorPreviewWrap"><input type="color" class="docUiColorPicker" aria-label="Pick color" value="#8c99b3"><span class="docUiColorPreview" style="background-color:#8c99b3" aria-hidden="true"></span></span><input class="docUiHexBox" readonly="" aria-label="Selected color hex" value="#8c99b3"></span></li>
+</ul><p>Defines the color of the <strong>2nd layer shadow</strong>. The <strong>1st layer</strong> must be used first; otherwise, this layer will not take effect.</p><p><strong>Shadow 2nd Intensity</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the intensity of the <strong>2nd layer</strong>. Lower values result in minimal shading, while higher values result in more intense shading.</p><p><strong>Shadow 2nd Area</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0.55"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0.55"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the area of the <strong>2nd layer</strong>. This sets the border between the shaded and lit areas.
+Lower values make the shading cover less area, while higher values make the shading cover more area.</p><p><strong>Shadow 2nd Softness</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0.45"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0.45"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the hardness and smoothness of the <strong>2nd layer</strong>. This can be used to adjust between cel-shaded toon shading and softer, more realistic shading.
+Lower values make the shading fully sharp, while higher values make the shading softer.</p></div></div></details><details class="details_lb9f alert alert--info details_b_Ee docDropdown" data-collapsed="true"><summary>3rd Shadow Layer</summary><div><div class="collapsibleContent_i85q"><p><strong>Shadow 3rd Color</strong></p><ul>
+<li class="">UI Type : <b>Color</b> <span class="docUiInlineControl docUiColorControl"><span class="docUiColorPreviewWrap"><input type="color" class="docUiColorPicker" aria-label="Pick color" value="#66738c"><span class="docUiColorPreview" style="background-color:#66738c" aria-hidden="true"></span></span><input class="docUiHexBox" readonly="" aria-label="Selected color hex" value="#66738c"></span></li>
+</ul><p>Defines the color of the <strong>3rd layer shadow</strong>. The <strong>2nd layer</strong> must be used first; otherwise, this layer will not take effect.</p><p><strong>Shadow 3rd Intensity</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the intensity of the <strong>3rd layer</strong>. Lower values result in minimal shading, while higher values result in more intense shading.</p><p><strong>Shadow 3rd Area</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0.35"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0.35"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the area of the <strong>3rd layer</strong>. This sets the border between the shaded and lit areas.
+Lower values make the shading cover less area, while higher values make the shading cover more area.</p><p><strong>Shadow 3rd Softness</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0.4"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0.4"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the hardness and smoothness of the <strong>3rd layer</strong>. This can be used to adjust between cel-shaded toon shading and softer, more realistic shading.
+Lower values make the shading fully sharp, while higher values make the shading softer.</p></div></div></details><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="shadow-edge">Shadow Edge<a href="#shadow-edge" class="hash-link" aria-label="Direct link to Shadow Edge" title="Direct link to Shadow Edge" translate="no">​</a></h3><details class="details_lb9f alert alert--info details_b_Ee docDropdown" data-collapsed="true"><summary>Shadow Edge Options</summary><div><div class="collapsibleContent_i85q"><p><strong>Shadow Edge Color</strong></p><ul>
+<li class="">UI Type : <b>Color</b> <span class="docUiInlineControl docUiColorControl"><span class="docUiColorPreviewWrap"><input type="color" class="docUiColorPicker" aria-label="Pick color" value="#ff1a00"><span class="docUiColorPreview" style="background-color:#ff1a00" aria-hidden="true"></span></span><input class="docUiHexBox" readonly="" aria-label="Selected color hex" value="#ff1a00"></span></li>
+</ul><p>Defines the color of the <strong>edge shadow</strong>. This layer applies an extra shadow color to the edge of the <strong>main layer</strong>.</p><p><strong>Shadow Edge Range</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the range of the <strong>edge shadow</strong>. This can be used to give the edge shadow more area.
+Lower values make the shading cover less area from the edge, while higher values make the shading cover more area from the edge.</p></div></div></details><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="shadow-blur--ao">Shadow Blur &amp; AO<a href="#shadow-blur--ao" class="hash-link" aria-label="Direct link to Shadow Blur &amp; AO" title="Direct link to Shadow Blur &amp; AO" translate="no">​</a></h3><details class="details_lb9f alert alert--info details_b_Ee docDropdown" data-collapsed="true"><summary>Shadow Blur</summary><div><div class="collapsibleContent_i85q"><p><strong>Shadow Blur Mask</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <img src="/img/ui/img-texture.png" class="uiIcon"> <b>Mask Texture</b>
+<ul>
+<li class="">Output format : <code>BC7 [RGBA]</code></li>
+</ul>
+</li>
+</ul></span><p>Defines a <strong>Blur Mask</strong> texture. Each <strong>RGB color channel</strong> is used for every shadow layers. This mask defines which areas should be blurred for each layer.</p><p><strong>Shadow Blur Mask Intensity</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the <strong>Blur Mask</strong> intensity.</p></div></div></details><details class="details_lb9f alert alert--info details_b_Ee docDropdown" data-collapsed="true"><summary>Shadow AO</summary><div><div class="collapsibleContent_i85q"><p><strong>Use Shadow AO Mask</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <img src="/img/ui/checkbox.png" class="uiIcon"> <b>Checkbox</b> <code>Boolean</code></li>
+</ul></span><p>Enables the use of an <strong>AO Mask</strong> for multi-layer shading.</p><p><strong>Shadow AO Mask</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <img src="/img/ui/img-texture.png" class="uiIcon"> <b>Mask Texture</b>
+<ul>
+<li class="">Output format : <code>BC7 [RGBA]</code></li>
+</ul>
+</li>
+</ul></span><p>Defines an <strong>Shadow AO Mask</strong> texture. Each <strong>RGB color channel</strong> is used for every shadow layers. This mask defines which areas should have <strong>AO</strong> for each layer.</p><p><strong>Shadow AO Mask Invert</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <img src="/img/ui/checkbox.png" class="uiIcon"> <b>Checkbox</b> <code>Boolean</code></li>
+</ul></span><p><strong>Inverts</strong> the AO mask, resulting in the opposite effect of the mask.</p><p><strong>Shadow AO Ignore Border Properties</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <img src="/img/ui/checkbox.png" class="uiIcon"> <b>Checkbox</b> <code>Boolean</code></li>
+</ul></span><p>When enabled, the AO mask will ignore the properties set in each layer&#x27;s <strong>Shadow Area</strong>.</p><p><strong>Shadow AO Mask 1st Min</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="-0.01" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="-0.01" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>-0.01 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the minimum amount of the Shadow Border to apply to the <strong>Main Shadow Layer</strong>.</p><p><strong>Shadow AO Mask 1st Max</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="-0.01" max="1" step="0.01" value="1"><input class="docUiNumber" type="number" min="-0.01" max="1" step="0.01" value="1"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>-0.01 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the maximum amount of the Shadow Border to apply to the <strong>Main Shadow Layer</strong>.</p><p><strong>Shadow AO Mask 2nd Min</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="-0.01" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="-0.01" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>-0.01 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the minimum amount of the Shadow Border to apply to the <strong>Second Shadow Layer</strong>.</p><p><strong>Shadow AO Mask 2nd Max</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="-0.01" max="1" step="0.01" value="1"><input class="docUiNumber" type="number" min="-0.01" max="1" step="0.01" value="1"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>-0.01 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the maximum amount of the Shadow Border to apply to the <strong>Second Shadow Layer</strong>.</p><p><strong>Shadow AO Mask 3rd Min</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="-0.01" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="-0.01" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>-0.01 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the minimum amount of the Shadow Border to apply to the <strong>Third Shading Layer</strong>.</p><p><strong>Shadow AO Mask 3rd Max</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="-0.01" max="1" step="0.01" value="1"><input class="docUiNumber" type="number" min="-0.01" max="1" step="0.01" value="1"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>-0.01 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the maximum amount of the Shadow Border to apply to the <strong>Third Shading Layer</strong>.</p></div></div></details><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="shadow-settings">Shadow Settings<a href="#shadow-settings" class="hash-link" aria-label="Direct link to Shadow Settings" title="Direct link to Shadow Settings" translate="no">​</a></h3><details class="details_lb9f alert alert--info details_b_Ee docDropdown" data-collapsed="true"><summary>Shadow Settings</summary><div><div class="collapsibleContent_i85q"><p><strong>Shadow Environment Strength</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls how much environmental lighting affects the shading color.</p><p><strong>Shadow Contrast</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls how much contrast the shading color should have. It makes the shadow colors more vibrant by multiplying the <strong>Main Color</strong> further.</p></div></div></details></div></div></details></div><div data-mode-id="TextureRamp" hidden=""><h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="textureramp">TextureRamp<a href="#textureramp" class="hash-link" aria-label="Direct link to TextureRamp" title="Direct link to TextureRamp" translate="no">​</a></h2><p><strong>TextureRamp</strong> shading is a toon shading mode that uses <strong>gradient ramps</strong> for shading. Our <strong>TextureRamp</strong> shading also supports <strong>vertical-map</strong> ramp textures.
+This means <strong>ToonRamps</strong> from <strong>MMD (MikuMikuDance)</strong> are <strong>supported</strong>. This mode is useful for creating cartoon lighting without needing a complex setup.</p><figure style="text-align:center"><img src="/img/shading-modes/textureramp-shading.png"><figcaption><strong>Texture Ramp Shading</strong></figcaption></figure><details class="details_lb9f alert alert--info details_b_Ee docDropdown" open="" data-collapsed="false"><summary>TextureRamp Shading Options</summary><div><div class="collapsibleContent_i85q"><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="textureramp-1">TextureRamp<a href="#textureramp-1" class="hash-link" aria-label="Direct link to TextureRamp" title="Direct link to TextureRamp" translate="no">​</a></h3><p><strong>Ramp Texture</strong></p><ul>
+<li class="">UI Type : <img src="/img/ui/img-texture.png" class="uiIcon"> <b>Color Texture</b>
+<ul>
+<li class="">Output format : <code>BC7 [RGBA]</code></li>
+</ul>
+</li>
+</ul><p>Defines a <strong>Ramp</strong> texture that controls the overall shading. Most ramp textures are mapped from <strong>Left-ight</strong>.
+The left-most area is the <strong>Darkest side</strong>, while the right-most side is the <strong>Lightest side</strong>.
+You can also use <strong>Bottom-Top</strong> ramp textures if you are using <strong>MMD</strong> materials. But you must enable <strong>Ramp Vertical</strong> for them to work properly.</p><p><strong>Ramp Intensity</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the intensity of the <strong>Ramp Shading</strong>.</p><p><strong>Ramp Offset</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="-1" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="-1" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>-1.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the offset of the <strong>Ramp Shading</strong>. <code>-1.0</code> is the left side (darkest), while <code>1.0</code> is the right side (lightest).</p><p><strong>Ramp Tint</strong></p><ul>
+<li class="">UI Type : <b>Color</b> <span class="docUiInlineControl docUiColorControl"><span class="docUiColorPreviewWrap"><input type="color" class="docUiColorPicker" aria-label="Pick color" value="#ffffff"><span class="docUiColorPreview" style="background-color:#ffffff" aria-hidden="true"></span></span><input class="docUiHexBox" readonly="" aria-label="Selected color hex" value="#ffffff"></span></li>
+</ul><p>Tints the <strong>Ramp Shading</strong>.</p><hr><div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p><strong>2nd TextureRamp</strong> is available if <strong>Enable Extra Layers</strong> is enabled in the sidebar.</p></div></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2nd-textureramp">2nd TextureRamp<a href="#2nd-textureramp" class="hash-link" aria-label="Direct link to 2nd TextureRamp" title="Direct link to 2nd TextureRamp" translate="no">​</a></h3><p><strong>Ramp 2nd Texture</strong></p><ul>
+<li class="">UI Type : <img src="/img/ui/img-texture.png" class="uiIcon"> <b>Color Texture</b>
+<ul>
+<li class="">Output format : <code>BC7 [RGBA]</code></li>
+</ul>
+</li>
+</ul><p>Defines a <strong>2nd TextureRamp</strong> texture that controls the second shading ramp.</p><p><strong>Ramp 2nd Intensity</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the intensity of the <strong>2nd Ramp Shading</strong>.</p><p><strong>Ramp 2nd Offset</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="-1" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="-1" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>-1.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the offset of the <strong>2nd Ramp Shading</strong>. <code>-1.0</code> is the left side (darkest), while <code>1.0</code> is the right side (lightest).</p><p><strong>Ramp 2nd Tint</strong></p><ul>
+<li class="">UI Type : <b>Color</b> <span class="docUiInlineControl docUiColorControl"><span class="docUiColorPreviewWrap"><input type="color" class="docUiColorPicker" aria-label="Pick color" value="#ffffff"><span class="docUiColorPreview" style="background-color:#ffffff" aria-hidden="true"></span></span><input class="docUiHexBox" readonly="" aria-label="Selected color hex" value="#ffffff"></span></li>
+</ul><p>Tints the <strong>2nd Ramp Shading</strong>.</p><hr><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="shadow-tint">Shadow Tint<a href="#shadow-tint" class="hash-link" aria-label="Direct link to Shadow Tint" title="Direct link to Shadow Tint" translate="no">​</a></h3><p><strong>Shadow Tint</strong></p><ul>
+<li class="">UI Type : <b>Color</b> <span class="docUiInlineControl docUiColorControl"><span class="docUiColorPreviewWrap"><input type="color" class="docUiColorPicker" aria-label="Pick color" value="#ffffff"><span class="docUiColorPreview" style="background-color:#ffffff" aria-hidden="true"></span></span><input class="docUiHexBox" readonly="" aria-label="Selected color hex" value="#ffffff"></span></li>
+</ul><p>Tints the <strong>shadow color</strong>, which is the darker side when lit. It will be mixed with the <strong>ramp color</strong> and <strong>ambient color</strong>.</p><p><strong>Shadow Strength</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the intensity of <strong>Shadow Tint</strong>.</p><hr><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ramp-settings">Ramp Settings<a href="#ramp-settings" class="hash-link" aria-label="Direct link to Ramp Settings" title="Direct link to Ramp Settings" translate="no">​</a></h3><p><strong>Ramp UV Mode</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="1" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="1" value="0"></span> <code>Int</code>
+<ul>
+<li class="">Range : <code>0 - 1</code></li>
+</ul>
+</li>
+</ul></span><p>Selects which UV channel to use for the <strong>Ramp Shading</strong>. <strong>UV0</strong> and <strong>UV1</strong> are available to use.</p><p><strong>Ramp Vertical</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <img src="/img/ui/checkbox.png" class="uiIcon"> <b>Checkbox</b> <code>Boolean</code></li>
+</ul></span><p>Enables <strong>Vertical mapping</strong> for the <strong>Ramp Texture</strong>. It maps from <strong>Bottom-Top</strong> instead of <strong>Left-Right</strong>, which is how <strong>MMD</strong> ramp textures are supposed to use.</p><p><strong>Ramp Invert</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <img src="/img/ui/checkbox.png" class="uiIcon"> <b>Checkbox</b> <code>Boolean</code></li>
+</ul></span><p>Enables the opposite mapping for <strong>Ramp Texture</strong> from <strong>Left-Right</strong> to <strong>Right-Left</strong>. This also maps from <strong>Bottom-Top</strong> to <strong>Top-Bottom</strong> for <strong>Vertical Mapping</strong> if <strong>Ramp Vertical</strong> is used.</p><hr></div></div></details></div><div data-mode-id="ShadeMap" hidden=""><h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="shademap">ShadeMap<a href="#shademap" class="hash-link" aria-label="Direct link to ShadeMap" title="Direct link to ShadeMap" translate="no">​</a></h2><p><strong>Shademap</strong> is a toon shading mode that uses <strong>shading maps</strong> for shading. You can use your own shademaps or use the main color with a specific shadow tint over it.
+<strong>Umamusume</strong> models also use shading maps for their shading, which can be useful if you&#x27;re using the shader for those models.</p><figure style="text-align:center"><img src="/img/shading-modes/shademap-shading.png"><figcaption><strong>Shademap Shading</strong></figcaption></figure><details class="details_lb9f alert alert--info details_b_Ee docDropdown" open="" data-collapsed="false"><summary>Shademap Shading Options</summary><div><div class="collapsibleContent_i85q"><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="shademap-settings">Shademap Settings<a href="#shademap-settings" class="hash-link" aria-label="Direct link to Shademap Settings" title="Direct link to Shademap Settings" translate="no">​</a></h3><p><strong>Shademap</strong></p><ul>
+<li class="">UI Type : <img src="/img/ui/img-texture.png" class="uiIcon"> <b>Color Texture</b>
+<ul>
+<li class="">Output format : <code>BC7 [RGBA]</code></li>
+</ul>
+</li>
+</ul><p>Defines a <strong>Shading map</strong> for the <strong>Main Shading</strong>. You can use the <strong>Main Color</strong> as the 1st shademap and tint it to a slightly darker color using <strong>Shademap Tint</strong> for a good shading result.</p><p><strong>Shademap Tint</strong></p><ul>
+<li class="">UI Type : <b>Color</b> <span class="docUiInlineControl docUiColorControl"><span class="docUiColorPreviewWrap"><input type="color" class="docUiColorPicker" aria-label="Pick color" value="#ffffff"><span class="docUiColorPreview" style="background-color:#ffffff" aria-hidden="true"></span></span><input class="docUiHexBox" readonly="" aria-label="Selected color hex" value="#ffffff"></span></li>
+</ul><p>Tints the <strong>Main Shading</strong>. You can use <strong>Use Main Color as 1st Shademap</strong> to use the <strong>Main Color</strong> and tint it if you do not have a <strong>Shading map</strong>.</p><p><strong>Use Main Color as 1st Shademap</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <img src="/img/ui/checkbox.png" class="uiIcon"> <b>Checkbox</b> <code>Boolean</code></li>
+</ul></span><p>Uses the <strong>Main Color</strong> as <strong>Shademap</strong>. You can use this if you do not have a shading map and want to tint it.</p><p><strong>Shademap Intensity</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the intensity of <strong>Main Shading</strong>.</p><p><strong>Shademap Area</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the area of the <strong>Main Shading</strong>. This sets the border between the shaded and lit areas.
+Lower values make the shading cover less area, while higher values make the shading cover more area.</p><p><strong>Shademap Softness</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the hardness and smoothness of the <strong>Main Shading</strong>. This can be used to adjust between cel-shaded toon shading and softer, more realistic shading.
+Lower values make the shading fully sharp, while higher values make the shading softer.</p><hr><div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>*<em>Second Shademap</em> is available if <strong>Enable Extra Layers</strong> is enabled in the sidebar.</p></div></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="second-shademap-settings">Second Shademap Settings<a href="#second-shademap-settings" class="hash-link" aria-label="Direct link to Second Shademap Settings" title="Direct link to Second Shademap Settings" translate="no">​</a></h3><p><strong>Second Shademap</strong></p><ul>
+<li class="">UI Type : <img src="/img/ui/img-texture.png" class="uiIcon"> <b>Color Texture</b>
+<ul>
+<li class="">Output format : <code>BC7 [RGBA]</code></li>
+</ul>
+</li>
+</ul><p>Defines the <strong>2nd Shading Map</strong> for the 2nd shading.</p><p><strong>Second Shademap Tint</strong></p><ul>
+<li class="">UI Type : <b>Color</b> <span class="docUiInlineControl docUiColorControl"><span class="docUiColorPreviewWrap"><input type="color" class="docUiColorPicker" aria-label="Pick color" value="#ffffff"><span class="docUiColorPreview" style="background-color:#ffffff" aria-hidden="true"></span></span><input class="docUiHexBox" readonly="" aria-label="Selected color hex" value="#ffffff"></span></li>
+</ul><p>Tints the <strong>2nd Shading</strong>.</p><p><strong>Use 1st as 2nd Shademap</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <img src="/img/ui/checkbox.png" class="uiIcon"> <b>Checkbox</b> <code>Boolean</code></li>
+</ul></span><p>Uses <strong>Shademap</strong> as <strong>Second Shademap</strong>.</p><p><strong>Second Shademap Intensity</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the intensity of <strong>2nd Shading</strong>.</p><p><strong>Second Shademap Area</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the area of <strong>2nd Shading</strong>.</p><p><strong>Second Shademap Softness</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the hardness and smoothness of <strong>2nd Shading</strong>.</p><hr><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="shademap-settings-1">Shademap Settings<a href="#shademap-settings-1" class="hash-link" aria-label="Direct link to Shademap Settings" title="Direct link to Shademap Settings" translate="no">​</a></h3><p><strong>Shademap Blend Mode</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="1" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="1" value="0"></span> <code>Int</code>
+<ul>
+<li class="">Range : <code>0 - 1</code></li>
+</ul>
+</li>
+</ul></span><p>Defines how the shading should be blended with the main color.
+<code>Replace</code> is the default mode and replaces the shading over the main color, while <code>Multiply</code> multiplies over the main color.</p><p><strong>Shademap UV Mode</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="1" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="1" value="0"></span> <code>Int</code>
+<ul>
+<li class="">Range : <code>0 - 1</code></li>
+</ul>
+</li>
+</ul></span><p>Defines which UV channel to use for the <strong>Shademap Shading</strong>. <strong>UV0</strong> &amp; <strong>UV1</strong> are available to use.</p><p><strong>Shademap Contrast</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0.0 - 1.0</code></li>
+</ul>
+</li>
+</ul></span><p>Controls how much contrast the shading color should have. It makes the shadow colors more vibrant by multiplying the <strong>Main Color</strong> further.</p></div></div></details></div><div data-mode-id="Realistic" hidden=""><h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="realistic">Realistic<a href="#realistic" class="hash-link" aria-label="Direct link to Realistic" title="Direct link to Realistic" translate="no">​</a></h2><p><strong>Realistic</strong> is a physically-based shading mode that&#x27;s useful for anything that is not <strong>Cartoony</strong> or <strong>Stylized</strong>. It behaves similar to the lighting found in the <strong>Unity Standard shader</strong>.
+<strong>Realistic Shading</strong> will cast <strong>Self-Shadows</strong> by default and shading can be controlled from <strong>Realistic Shading</strong> category and <a class="" href="/docs/advanced/pbr-rendering"><strong>PBR Rendering</strong></a>.</p><p>Separate <strong>AO</strong> and <strong>Shadowmap</strong> support are also added to <a class="" href="/docs/advanced/pbr-rendering"><strong>PBR Rendering</strong></a> with this mode.</p><figure style="text-align:center"><img src="/img/shading-modes/realistic-shading.png"><figcaption><strong>Realistic Shading</strong></figcaption></figure><details class="details_lb9f alert alert--info details_b_Ee docDropdown" open="" data-collapsed="false"><summary>Realistic Shading Options</summary><div><div class="collapsibleContent_i85q"><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="realistic-shading-settings">Realistic Shading Settings<a href="#realistic-shading-settings" class="hash-link" aria-label="Direct link to Realistic Shading Settings" title="Direct link to Realistic Shading Settings" translate="no">​</a></h3><p><strong>Shading Tint</strong></p><ul>
+<li class="">UI Type : <b>Color</b> <span class="docUiInlineControl docUiColorControl"><span class="docUiColorPreviewWrap"><input type="color" class="docUiColorPicker" aria-label="Pick color" value="#000000"><span class="docUiColorPreview" style="background-color:#000000" aria-hidden="true"></span></span><input class="docUiHexBox" readonly="" aria-label="Selected color hex" value="#000000"></span></li>
+</ul><p>Tints the <strong>Shading</strong>.</p><p><strong>Shading Light Side Tint</strong></p><ul>
+<li class="">UI Type : <b>Color</b> <span class="docUiInlineControl docUiColorControl"><span class="docUiColorPreviewWrap"><input type="color" class="docUiColorPicker" aria-label="Pick color" value="#ffffff"><span class="docUiColorPreview" style="background-color:#ffffff" aria-hidden="true"></span></span><input class="docUiHexBox" readonly="" aria-label="Selected color hex" value="#ffffff"></span></li>
+</ul><p>Tints the <strong>Lit side</strong> (Bright Side).</p><p><strong>Shading Area</strong></p><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : 0.0 - 1.0</li>
+</ul>
+</li>
+</ul><p>Controls the area of the <strong>Shading</strong>. This sets the border between the shaded and lit areas. Lower values make the shading cover less area, while higher values make the shading cover more area.</p><p><strong>Self Shadowing Enabled</strong></p><ul>
+<li class="">UI Type : <b>Toggle</b> <span class="docUiCheckboxOnly"><input type="checkbox" class="docUiCheckboxInput" aria-label="Checkbox" checked=""><span class="docUiCheckboxBox" aria-hidden="true"><span class="docUiCheckboxMark">✓</span></span></span></li>
+</ul><p>Enables <strong>Self-Shadowing</strong>. This will be enabled by default.</p><p><strong>Self Shadowing Intensity</strong></p><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : 0.0 - 1.0</li>
+</ul>
+</li>
+</ul><p>Controls the intensity of <strong>Self-Shadowing</strong>.</p></div></div></details></div><div data-mode-id="Fur" hidden=""><h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fur">Fur<a href="#fur" class="hash-link" aria-label="Direct link to Fur" title="Direct link to Fur" translate="no">​</a></h2><p><strong>Fur</strong> is a mode for rendering fluffy ears, tails, or anything else fluffy. <strong>Outlines</strong> and some effects are not visible or unavailable on <strong>Fur</strong> due to performance issues. For shading, <strong>Multi-layer Shading</strong> is the only shadow shading available for <strong>Fur</strong>.</p><p>You can render <strong>Fur</strong> in three different render modes: <strong>Opaque, Cutoff</strong>, and <strong>Translucent</strong>. The first two render the Fur as expected, while <strong>Translucent</strong> uses <strong>Alpha-To-Coverage (A2C)</strong> with some workarounds to make it look <strong>premium</strong> while being a bit more <strong>expensive</strong>.</p><div class="theme-admonition theme-admonition-danger admonition_xJq3 alert alert--danger"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>Performance warning</div><div class="admonitionContent_BuS1"><p>This mode is a very high-load feature because it uses actual geometry! You should only use it if you have a proper setup, such as the required map textures.
+Using a <strong>length mask</strong> is recommended so you only render <strong>Fur</strong> where it is needed!</p></div></div><details class="details_lb9f alert alert--info details_b_Ee docDropdown" open="" data-collapsed="false"><summary>Fur Options</summary><div><div class="collapsibleContent_i85q"><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="fur-textures">Fur Textures<a href="#fur-textures" class="hash-link" aria-label="Direct link to Fur Textures" title="Direct link to Fur Textures" translate="no">​</a></h3><p><strong>Fur Map</strong></p><ul>
+<li class="">UI Type : <img src="/img/ui/img-texture.png" class="uiIcon"> <b>Mask</b>
+<ul>
+<li class="">Output format : <code>ATI1N [R]</code></li>
+</ul>
+</li>
+</ul><p>Defines a <strong>Fur Map</strong> for determining where to draw <strong>Fur Geometry</strong> and how long the <strong>Fur</strong> is.</p><div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>We highly recommend you to have one to avoid unnecessary usage!</p></div></div><p><strong>Fur Normal Map</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <img src="/img/ui/img-texture.png" class="uiIcon"> <b>Map</b>
+<ul>
+<li class="">Output format : <code>BC7 [RGBA]</code></li>
+</ul>
+</li>
+</ul></span><p>Defines a <strong>Normal Map</strong> for <strong>Fur</strong> and can be used as the direction of the <strong>Fur</strong>.</p><p><strong>Fur Noise Map</strong></p><ul>
+<li class="">UI Type : <img src="/img/ui/img-texture.png" class="uiIcon"> <b>Mask</b>
+<ul>
+<li class="">Output format : <code>ATI1N [R]</code></li>
+</ul>
+</li>
+</ul><p>Defines a <strong>Noise Map</strong> for <strong>Fur Generation</strong>. You should tile the <strong>Noise Map</strong> to a higher value for more <strong>Fur</strong>.</p><div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>We already tile the <strong>Noise Map</strong> to <strong>10x10</strong> by default, which gives a good result and adds a good amount of <strong>Fur</strong>.
+You can readjust it if you want to reduce the amount of <strong>Fur</strong> or increase it for more <strong>Fur</strong>.</p></div></div><p><strong>Fur Alpha Mask</strong></p><ul>
+<li class="">UI Type : <img src="/img/ui/img-texture.png" class="uiIcon"> <b>Mask</b>
+<ul>
+<li class="">Output format : <code>ATI1N [R]</code></li>
+</ul>
+</li>
+</ul><p>Defines an <strong>Alpha Mask</strong> for <strong>Fur Transparency</strong>. <strong>Furs</strong> in <strong>Transparent</strong> are already transparent by default even without an alpha mask.
+But you can make some parts of the <strong>Fur</strong> more transparent while the rest stays the same with this.</p><div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p><strong>Fur Alpha Mask</strong> will only show up in <strong>Cutoff</strong> or <strong>Transparent</strong> rendering mode.</p></div></div><hr><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="fur-settings">Fur Settings<a href="#fur-settings" class="hash-link" aria-label="Direct link to Fur Settings" title="Direct link to Fur Settings" translate="no">​</a></h3><p><strong>Fur Layer Counts</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="1" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="1" value="0"></span> <code>Int</code>
+<ul>
+<li class="">Range : <code>0 - 3</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the number of <strong>Fur Layers</strong> to draw. This setting is the another most <strong>expensive</strong>, as it controls how many layers of <strong>Fur</strong> should be drawn.</p><div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>We recommend using <strong>2</strong> layers most of the time.</p></div></div><p><strong>Fur Normal Intensity</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="1" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="1" value="0"></span> <code>Int</code>
+<ul>
+<li class="">Range : <code>-5 - 5</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the intensity of the <strong>Fur Normal Map</strong>. Changing this causes the <strong>Fur</strong> to use the direction from the specified <strong>Fur Normal Map</strong>.</p><p><strong>Fur Direction</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Float3</b> <span class="docUiVectorInline"><span class="docUiVectorItem"><span class="docUiAxis">X</span><input class="docUiNumber docUiVectorNumber" type="number" step="0.01" value="0"></span><span class="docUiVectorItem"><span class="docUiAxis">Y</span><input class="docUiNumber docUiVectorNumber" type="number" step="0.01" value="0"></span><span class="docUiVectorItem"><span class="docUiAxis">Z</span><input class="docUiNumber docUiVectorNumber" type="number" step="0.01" value="0"></span></span>
+<ul>
+<li class="">Range : <code>-1, -1, -1 - 1, 1, 1</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the direction of the <strong>Fur</strong> by <strong>XYZ</strong> axes. The <strong>Z</strong> axis should usually be set to <strong>1</strong> to avoid unusual behavior.
+You can make the <strong>Fur</strong> point in a specific direction by using this.</p><p><strong>Fur Length</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0 - 1</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the length of the <strong>Fur</strong>. This slider is expensive, so you should only use very low values such as 0.02, 0.05, and so on.</p><div class="theme-admonition theme-admonition-danger admonition_xJq3 alert alert--danger"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>Performance warning</div><div class="admonitionContent_BuS1"><p>This slider makes the <strong>Fur</strong> longer and fills more <strong>Fur</strong> pixels on the screen, which will drain performance a lot.
+As advised, you should only use very low values.</p></div></div><p><strong>Fur Gravity</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0 - 1</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the gravity simulation on the <strong>Fur</strong>. It makes the <strong>Fur</strong> point downward as if gravity is pushing it down.</p><p><strong>Fur Randomize</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0 - 1</code></li>
+</ul>
+</li>
+</ul></span><p>Randomizes the length of the <strong>Fur</strong>. This lets you create more varied <strong>Fur</strong>.</p><p><strong>Fur Visibility</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0 - 1</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the visibility of the <strong>Fur</strong>. Lower values make the <strong>Fur</strong> less visible and softer, while higher values make the <strong>Fur</strong> harsher and looks denser.</p><div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p><strong>Fur Visibility</strong> will only show up in <strong>Cutoff</strong> or <strong>Transparent</strong> rendering mode.</p></div></div><p><strong>Fur AO</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0 - 1</code></li>
+</ul>
+</li>
+</ul></span><p>Adds <strong>Ambient Occlusion (AO)</strong> to the <strong>Furs</strong>.</p><hr><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="fur-rim-lighting-settings">Fur Rim Lighting Settings<a href="#fur-rim-lighting-settings" class="hash-link" aria-label="Direct link to Fur Rim Lighting Settings" title="Direct link to Fur Rim Lighting Settings" translate="no">​</a></h3><p><strong>Fur Rim Enabled</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <img src="/img/ui/checkbox.png" class="uiIcon"> <b>Checkbox</b> <code>Boolean</code></li>
+</ul></span><p>Enables <strong>Fur Rim Lighting</strong>. This will be used by default and can improve the look of the <strong>Fur</strong> a lot.</p><p><strong>Fur Rim Color</strong></p><ul>
+<li class="">UI Type : <b>Color</b> <span class="docUiInlineControl docUiColorControl"><span class="docUiColorPreviewWrap"><input type="color" class="docUiColorPicker" aria-label="Pick color" value="#ffffff"><span class="docUiColorPreview" style="background-color:#ffffff" aria-hidden="true"></span></span><input class="docUiHexBox" readonly="" aria-label="Selected color hex" value="#ffffff"></span></li>
+</ul><p>Tints the color of <strong>Fur Rim Lighting</strong>.</p><p><strong>Fur Rim Intensity</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0 - 1</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the intensity of <strong>Fur Rim Lighting</strong>.</p><p><strong>Fur Rim Tip Area</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0 - 1</code></li>
+</ul>
+</li>
+</ul></span><p>Controls how much <strong>Fur Rim Lighting</strong> should affect the tips and strands.
+Lower values keep the effect on the tips, while higher values make the effect reach farther into the strands from the tip.</p><p><strong>Fur Rim Fresnel</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0 - 1</code></li>
+</ul>
+</li>
+</ul></span><p>Controls the edge fresnel of the <strong>Fur Rim Lighting</strong>.
+Lower values make the effect appear fully, while higher values make the effect show up only at the edges.</p><p><strong>Fur Rim Lighting Mix</strong></p><span class="uiRow"><ul>
+<li class="">UI Type : <b>Slider</b> <span class="docUiInlineControl docUiSliderControl"><input class="docUiRangeInput" type="range" min="0" max="1" step="0.01" value="0"><input class="docUiNumber" type="number" min="0" max="1" step="0.01" value="0"></span> <code>Float</code>
+<ul>
+<li class="">Range : <code>0 - 1</code></li>
+</ul>
+</li>
+</ul></span><p>Makes the <strong>Fur Rim Lighting</strong> adapt to the scene lighting.</p></div></div></details></div></div></div></div></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/main-features/second-color"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">🖌️ 2nd Color</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/shadings/wrap-shading"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">👤 Wrap Shading</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#flat-shading" class="table-of-contents__link toc-highlight">Flat Shading</a></li><li><a href="#multi-layer-shading" class="table-of-contents__link toc-highlight">Multi-layer Shading</a><ul><li><a href="#shadow-map" class="table-of-contents__link toc-highlight">Shadow Map</a></li><li><a href="#shadow-layers" class="table-of-contents__link toc-highlight">Shadow Layers</a></li><li><a href="#shadow-edge" class="table-of-contents__link toc-highlight">Shadow Edge</a></li><li><a href="#shadow-blur--ao" class="table-of-contents__link toc-highlight">Shadow Blur &amp; AO</a></li><li><a href="#shadow-settings" class="table-of-contents__link toc-highlight">Shadow Settings</a></li></ul></li><li><a href="#textureramp" class="table-of-contents__link toc-highlight">TextureRamp</a><ul><li><a href="#textureramp-1" class="table-of-contents__link toc-highlight">TextureRamp</a></li><li><a href="#2nd-textureramp" class="table-of-contents__link toc-highlight">2nd TextureRamp</a></li><li><a href="#shadow-tint" class="table-of-contents__link toc-highlight">Shadow Tint</a></li><li><a href="#ramp-settings" class="table-of-contents__link toc-highlight">Ramp Settings</a></li></ul></li><li><a href="#shademap" class="table-of-contents__link toc-highlight">ShadeMap</a><ul><li><a href="#shademap-settings" class="table-of-contents__link toc-highlight">Shademap Settings</a></li><li><a href="#second-shademap-settings" class="table-of-contents__link toc-highlight">Second Shademap Settings</a></li><li><a href="#shademap-settings-1" class="table-of-contents__link toc-highlight">Shademap Settings</a></li></ul></li><li><a href="#realistic" class="table-of-contents__link toc-highlight">Realistic</a><ul><li><a href="#realistic-shading-settings" class="table-of-contents__link toc-highlight">Realistic Shading Settings</a></li></ul></li><li><a href="#fur" class="table-of-contents__link toc-highlight">Fur</a><ul><li><a href="#fur-textures" class="table-of-contents__link toc-highlight">Fur Textures</a></li><li><a href="#fur-settings" class="table-of-contents__link toc-highlight">Fur Settings</a></li><li><a href="#fur-rim-lighting-settings" class="table-of-contents__link toc-highlight">Fur Rim Lighting Settings</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Documentation</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/general-info/introduction">Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/general-info/download-and-usage">Download &amp; Usage</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/general-info/faq-troubleshooting">FAQ / Troubleshooting</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/general-info/shader-translation">Shader Translation</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/general-info/introduction#feature-introduction">Feature-Introduction</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Developer</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/updates">Updates</a></li><li class="footer__item"><a class="footer__link-item" href="/blogs">Blogs</a></li><li class="footer__item"><a class="footer__link-item" href="/guides">Guides</a></li><li class="footer__item"><a class="footer__link-item" href="/credits">Credits</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/BoBiCo-Lab/BoBiCo-Shaders" target="_blank" rel="noopener noreferrer" class="footer__link-item">Github</a></li><li class="footer__item"><a href="https://sbox.game/bobicolab/bobicoshader" target="_blank" rel="noopener noreferrer" class="footer__link-item">S&amp;box Workshop</a></li><li class="footer__item"><a href="https://discord.gg/4NaJHNVTDa" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright (c) 2026 BoBiCo Shader.</div></div></div></footer></div>
+</body>
+</html>

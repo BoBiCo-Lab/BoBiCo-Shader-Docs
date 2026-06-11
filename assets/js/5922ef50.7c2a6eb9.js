@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbo_bi_co_website=self.webpackChunkbo_bi_co_website||[]).push([["4664"],{6747(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Nothing yet","permalink":"/guides/2026/06/10/starter-guide","unlisted":false,"date":"2026-06-10T00:00:00.000Z"}]}')}}]);

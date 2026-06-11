@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbo_bi_co_website=self.webpackChunkbo_bi_co_website||[]).push([["9893"],{7533(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Nothing yet","permalink":"/blogs/2026/06/10/why-we-made-this","unlisted":false,"date":"2026-06-10T00:00:00.000Z"}]}')}}]);

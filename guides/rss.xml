@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>BoBiCo Shader Blog</title>
+        <link>https://bobico-shader-docs.vercel.app/guides</link>
+        <description>BoBiCo Shader Blog</description>
+        <lastBuildDate>Wed, 10 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Nothing yet]]></title>
+            <link>https://bobico-shader-docs.vercel.app/guides/2026/06/10/starter-guide</link>
+            <guid>https://bobico-shader-docs.vercel.app/guides/2026/06/10/starter-guide</guid>
+            <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

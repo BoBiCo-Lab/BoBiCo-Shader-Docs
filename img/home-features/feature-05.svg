@@ -1,0 +1,10 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="72" fill="#151515"/>
+  <rect x="72" y="72" width="1456" height="756" rx="48" fill="#1b1b1b"/>
+  <rect x="250" y="188" width="1100" height="444" rx="40" fill="#252525" stroke="#474747" stroke-width="6"/>
+  <path d="M350 286H1250" stroke="#6f6f6f" stroke-width="16" stroke-linecap="round"/>
+  <path d="M350 386H1050" stroke="#bdbdbd" stroke-width="16" stroke-linecap="round"/>
+  <path d="M350 486H1180" stroke="#8a8a8a" stroke-width="16" stroke-linecap="round"/>
+  <text x="118" y="738" fill="#ffffff" fill-opacity="0.85" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">Feature 05</text>
+  <text x="118" y="812" fill="#bfbfbf" fill-opacity="0.8" font-family="Arial, Helvetica, sans-serif" font-size="34">Replace with GIF or video later</text>
+</svg>
